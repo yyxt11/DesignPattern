@@ -9,6 +9,7 @@ Product::Product()
 
 Product::~Product()
 {
+	std::cout << "Product delete" << std::endl;
 }
 
 void Product::Add(string A)
@@ -20,7 +21,7 @@ void Product::Show()
 {
 	int i;
 	string j;
-	for (i = 0; i < ListV.size(); i++)
+	for (i = 0;i<ListV.size();i++)
 	{
 		cout << ListV[i] << " ";
 	}
